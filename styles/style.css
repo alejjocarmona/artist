@@ -1,0 +1,115 @@
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    color: #001F18;
+    background-color: #E6E6E6;
+    margin: 0px;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+}
+
+.nav{
+    padding-bottom: 10px;
+    background-color: #DB3832;
+    border-radius: 0 0 15px 15px;
+}
+
+nav > ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 50px;
+    list-style: none;
+    font-size: 35px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+    text-align: justify;
+    padding-top: 3%;
+    border: 0px;
+}
+
+header, h1, h2 {
+    font-family: 'Anton', Arial, sans-serif;
+    color: #DB3832;
+    text-align: center;
+    font-size: 30px;
+}
+
+header > img {
+    width: 70%;
+}
+
+ul, p {
+    line-height: 2rem;
+    font-size: 20px;
+}
+
+a {
+    color: #E6E6E6;
+    text-decoration: none;
+}
+
+article > ul {
+   list-style: none;
+}
+
+article > ul li::before {
+    content: "\21F4";
+    padding-right: 15px;
+    font-size: 35px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.images img {
+    width: 45%;
+    border: 5px solid #DB3832;
+    border-radius: 20px;
+    margin: 8px;
+}
+
+footer {
+    margin-top: 30px;
+    height: 150px;
+    border-radius: 15px 15px 0 0 ;
+    background-color: #DB3832;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 2rem;
+}
+
+footer > div {
+    width: 33.333%;
+    text-align: center;
+    color: #E6E6E6;
+}
+
+div > a {
+    color: #E6E6E6;
+    font-size: 25px;
+}
+
+.btnhome {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+.btnhome img {
+    width: 50px;
+}
